@@ -8,6 +8,15 @@ A complete Policy Management System built using Frappe Framework (Python) for th
 backend/
   README.md
   policy_management/        # Frappe app containing DocTypes and API
+frappe-bench/
+│
+├── config/       # Bench and supervisor configurations
+├── env/          # Python virtual environment
+├── logs/         # Log files for bench, workers, redis, schedule, etc.
+├── sites/        # Frappe sites, site config, database config
+├── Procfile      # Process definitions for running bench
+└── patches.txt   # Frappe patches tracking file
+
 frontend/
   package.json
   src/                      # React app with modular pages/components
