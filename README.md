@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Policy Management & Approval System
 
 Full-stack reference implementation with a Frappe backend and React + TypeScript frontend.
@@ -43,3 +44,6 @@ Configure `VITE_API_BASE` to point to your Frappe site (defaults to `/api/method
 - Add slack/email integration for notifications
 - Expand unit tests for DocTypes and React components
 
+=======
+# policy_management_system
+>>>>>>> 8a746fd79f25644d5e86a394456604692fda7272
