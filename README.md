@@ -1,6 +1,6 @@
 # Policy Management & Approval System
 
-Full-stack reference implementation with a Frappe backend and React + TypeScript frontend.
+A complete Policy Management System built using Frappe Framework (Python) for the backend and React.js for the frontend. This system enables creation, management, approval, and tracking of company policies with a modern UI and a structured backend.
 
 ## Project Layout
 
