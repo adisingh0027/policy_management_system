@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Policy Management & Approval System
 
 Full-stack reference implementation with a Frappe backend and React + TypeScript frontend.
@@ -46,4 +45,40 @@ Configure `VITE_API_BASE` to point to your Frappe site (defaults to `/api/method
 
 =======
 # policy_management_system
->>>>>>> 8a746fd79f25644d5e86a394456604692fda7272
+
+Policy-Management-System
+│
+├── backend/
+│   ├── policy_management/
+│   │   ├── config/
+│   │   │   └── ...
+│   │   ├── doctype/
+│   │   │   └── ... (Custom doctypes)
+│   │   ├── utils/
+│   │   │   └── ...
+│   │   ├── api.py          # API endpoints
+│   │   ├── hooks.py        # Frappe hooks
+│   │   ├── permissions.py  # RBAC logic
+│   │   └── __init__.py
+│   ├── README.md
+│   └── requirements.txt    # Python dependencies
+│
+├── frappe-bench/
+│   ├── apps/
+│   ├── config/
+│   ├── env/
+│   ├── logs/
+│   ├── sites/
+│   ├── patches.txt
+│   └── Procfile
+│
+└── frontend/
+    ├── src/
+    │   └── ... React components
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    └── eslint.config.js
+
+
+
