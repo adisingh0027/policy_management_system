@@ -1,0 +1,4 @@
+frappe>=15.0.0
+python-slugify>=8.0.1
+requests>=2.31.0
+redis>=5.0.0

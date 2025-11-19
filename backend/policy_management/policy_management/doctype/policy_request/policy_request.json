@@ -1,0 +1,20 @@
+{
+  "doctype": "DocType",
+  "name": "Policy Request",
+  "module": "Policy Management",
+  "track_changes": 1,
+  "fields": [
+    {"fieldname": "policy", "fieldtype": "Link", "options": "Policy", "label": "Policy", "reqd": 1},
+    {"fieldname": "employee", "fieldtype": "Link", "options": "User", "label": "Employee", "reqd": 1},
+    {"fieldname": "query", "fieldtype": "Text", "label": "Query", "reqd": 1},
+    {"fieldname": "status", "fieldtype": "Select", "options": "Open\nUnder Review\nApproved\nRejected", "label": "Status", "reqd": 1, "default": "Open"},
+    {"fieldname": "approver", "fieldtype": "Link", "options": "User", "label": "Approver"},
+    {"fieldname": "approver_remarks", "fieldtype": "Small Text", "label": "Approver Remarks"}
+  ],
+  "permissions": [
+    {"role": "Employee", "read": 1, "write": 1, "create": 1},
+    {"role": "Policy Manager", "read": 1, "write": 1, "create": 1},
+    {"role": "System Manager", "read": 1, "write": 1, "create": 1, "submit": 1}
+  ]
+}
+

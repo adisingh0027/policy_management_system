@@ -1,0 +1,19 @@
+{
+  "doctype": "DocType",
+  "name": "Policy Activity Log",
+  "module": "Policy Management",
+  "track_changes": 0,
+  "fields": [
+    {"fieldname": "reference_type", "fieldtype": "Dynamic Link", "options": "reference_doctype", "label": "Reference Type", "reqd": 1},
+    {"fieldname": "reference_name", "fieldtype": "Dynamic Link", "options": "reference_type", "label": "Reference Name", "reqd": 1},
+    {"fieldname": "event_type", "fieldtype": "Select", "options": "Created\nUpdated\nStatus Changed\nComment Added", "label": "Event Type", "reqd": 1},
+    {"fieldname": "changed_by", "fieldtype": "Link", "options": "User", "label": "Changed By", "reqd": 1},
+    {"fieldname": "details", "fieldtype": "Long Text", "label": "Details"}
+  ],
+  "permissions": [
+    {"role": "Employee", "read": 1},
+    {"role": "Policy Manager", "read": 1, "create": 1},
+    {"role": "System Manager", "read": 1, "create": 1, "delete": 1}
+  ]
+}
+

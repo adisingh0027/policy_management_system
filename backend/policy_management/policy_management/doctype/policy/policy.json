@@ -1,0 +1,18 @@
+{
+  "doctype": "DocType",
+  "name": "Policy",
+  "module": "Policy Management",
+  "custom": 0,
+  "track_changes": 1,
+  "is_submittable": 0,
+  "fields": [
+    {"fieldname": "title", "fieldtype": "Data", "label": "Title", "reqd": 1},
+    {"fieldname": "description", "fieldtype": "Text Editor", "label": "Description", "reqd": 1},
+    {"fieldname": "category", "fieldtype": "Select", "options": "HR\nFinance\nOperations\nTravel\nSecurity", "label": "Category", "reqd": 1},
+    {"fieldname": "version", "fieldtype": "Int", "label": "Version", "reqd": 1, "default": "1"},
+    {"fieldname": "active_from", "fieldtype": "Date", "label": "Active From", "reqd": 1},
+    {"fieldname": "attachment", "fieldtype": "Attach", "label": "Attachment"},
+    {"fieldname": "is_active", "fieldtype": "Check", "label": "Is Active", "default": "1"}
+  ]
+}
+
