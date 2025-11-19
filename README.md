@@ -32,7 +32,6 @@ See `backend/README.md` for setup instructions.
 ### Running Frontend
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
 
