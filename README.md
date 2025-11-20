@@ -87,6 +87,9 @@ Policy-Management-System
     ├── package.json
     ├── package-lock.json
     └── eslint.config.js
+<img width="1469" height="742" alt="image" src="https://github.com/user-attachments/assets/aaee3a04-20cf-4c77-8b4f-f1fdefdb9380" />
+<img width="1549" height="1033" alt="image" src="https://github.com/user-attachments/assets/14d71860-28f9-4adb-8a3e-646c1f920950" />
+
 
 
 
