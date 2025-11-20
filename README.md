@@ -89,7 +89,8 @@ Policy-Management-System
     └── eslint.config.js
 <img width="1469" height="742" alt="image" src="https://github.com/user-attachments/assets/aaee3a04-20cf-4c77-8b4f-f1fdefdb9380" />
 <img width="1549" height="1033" alt="image" src="https://github.com/user-attachments/assets/14d71860-28f9-4adb-8a3e-646c1f920950" />
-<img width="1071" height="675" alt="image" src="https://github.com/user-attachments/assets/6a0180fb-815f-4d3c-a92b-f03bb3b185ec" />
+<img width="1286" height="857" alt="image" src="https://github.com/user-attachments/assets/1cd61529-cae7-4db5-bfa5-02c7bd41199f" />
+
 
 
 
